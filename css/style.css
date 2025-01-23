@@ -1,0 +1,93 @@
+ header{
+    min-height: 90vh;
+    background-image: url(../immmg/wallpaperflare.com_wallpaper\ \(21\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bbg img{
+  transition: 0.5s;
+}
+.bbg img:hover{
+  transform: scale(1.1) ;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.616);
+    /* background-size: cover; */
+    min-height: 90vh;
+}
+.logo img{
+  height: 53px;
+  width: 100px;
+  font-size: 1px;
+}
+a:hover{
+    background-color: #31D2F2;
+}
+.sstart{
+    font-size: 100px;
+    transition: 1s;
+}
+.eend{
+    transition: 1s;
+    font-size: 100px;
+}
+.sstart:hover{
+    transform:translate(150px);
+}
+.eend:hover{
+    transform:translate(-125px);
+} 
+.parent{
+  height: 450px;
+  width: 320px;
+  margin: 150px auto;
+  position: relative;
+  transition: 1s;
+  transform-style:preserve-3d ;
+}
+.parent:hover{
+  transform: rotateY(180deg);
+}
+.child{
+  height: 450px;
+  width: 320px;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  backface-visibility: hidden;
+}
+.child2{
+  height: 450px;
+  width: 320px;
+  position: absolute;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+.child2 img{
+  background-size: cover;
+  height: 170px;
+  width: 288px;
+}
+.article{
+  border:1px solid;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 10px;
+  margin: 8px;
+}
+.article p{
+  font-size: 15px;
+}
+.article:hover{
+  transform:scale(1.1) ;
+  translate: 0px -50px;
+  transition: 1s;
+}
+.footer{
+  background-color: #434341;
+}
+.map img{
+  width: 250px;
+  height: 270px;
+}
